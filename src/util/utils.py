@@ -9,6 +9,7 @@ def removeDuplicatesRows(df):
     df_no_duplicates = df.drop_duplicates()
     return df_no_duplicates
 
+
 def openDataframe(filename):
     filePath = os.path.join(DATA_PATH, filename)
     # Abre um arquivo CSV e carrega seu conteúdo em um DataFrame
