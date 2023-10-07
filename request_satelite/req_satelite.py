@@ -45,8 +45,8 @@ def save_images(data, path):
 
 def main():
     token = "a779d04f85c4bf6cfa586d30aaec57c44e9b7173" #token fornecido por email
-    data_inicio = "2023-04-30" # data mais antiga
-    data_fim = "2023-05-01" # data mais recente
+    data_inicio = "2023-05-01" # data mais antiga
+    data_fim = "2023-05-02" # data mais recente
 
     api = f'http://montreal.icea.decea.mil.br:5002/api/v1/satelite?token={token}&idate={data_inicio}&fdate={data_fim}'
     data = req_api(api)
